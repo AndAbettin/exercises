@@ -1,0 +1,14 @@
+html {
+    background: linear-gradient(225deg, grey, black);
+    color: white;
+}
+
+img {
+    height: 500px;
+    width: 300px;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
