@@ -1,0 +1,58 @@
+html {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 18px;
+}
+
+article {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+section {
+  padding: 0.5rem 2rem;
+}
+
+a {
+  color: #6290C3;
+}
+
+body {
+  margin: 0 auto;
+}
+
+h1 {
+  color: #23226C;
+  font-weight: 900;
+  font-size: 240%;
+  text-align: center;
+}
+
+h2 {
+  color: #23226C;
+  font-weight: 900;
+  font-size: 180%;
+}
+
+.intro {
+  background-color: #D2D6EF;
+}
+
+.conclusion {
+  background-color: #D2D6EF;
+}
+
+em {
+  background-color: #D2D6EF;
+  font-style: normal;
+}
+
+strong {
+  font-weight: bold;
+  color: black;
+}
+
+p {
+  color: #555555;
+  line-height: 150%;
+  text-align: block;
+}
