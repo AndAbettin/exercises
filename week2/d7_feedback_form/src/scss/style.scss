@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+    color: white;
+    background-color: #001555;
+    font-family: Arial;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+h1 {
+    // margin-top: 5rem;
+    width: 100%;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    margin: 2% 20% 5%;
+    width: 60%;
+    background-color: rgb(81, 81, 171);
+    .name {
+        margin-left: 2.5rem;
+        input {
+            width: 95%;
+            height: 2rem;
+        }
+    }
+    .email {
+        margin-left: 2.5rem;
+        input {
+            width: 95%;
+            height: 2rem;
+        }
+    }
+    .batch {
+        margin-left: 2.5rem;
+
+        select {
+            width: 95%;
+            height: 2rem;
+        }
+    }
+    .radio {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5rem;
+    }
+    .mult-select {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5rem;
+    }
+    .feedback {
+        margin-left: 2.5rem;
+        textarea {
+            width: 95%;
+            height: 5rem;
+        }
+    }
+    .button {
+        width: 15%;
+        height: 2.8rem;
+        text-align: center;
+        font-weight: 700;
+        background-color: white;
+        color: #001555;
+        border-radius: 5%;
+        margin: 5% 40% 10%;
+    }
+}

@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+$small: 768px;
+$medium: 1200px; 
+
+// Change font and font size universally for the page
+html {
+    font-family: 'Exo', sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: #F2F2F2;
+}
+
+// Contains everything, set universal width and margin
+.container {
+    max-width: 1200px;
+    margin: 1rem auto;
+}
+
+header {
+    text-align: center;
+}
+
+// In wider resolutions, move logo to right-hand side
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+// In wider resolutions, move h1 to left-hand side
+h1 {
+    color: #F4A423;
+
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+// Sets as flex, aligned to y-plane
+// In wider resolutions, re-align to x-plane
+nav {
+    padding-left: 2rem;
+    background-color: #435058;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 3rem;
+    border-bottom: 2px solid transparent;
+}
+
+nav a:hover {
+    color: #F4A423;
+    border-color: #F4A423;
+}
+
+// For wider resolutions, needs to be in row-form
+.plans {
+    margin-top: 2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    
+    nav {
+        flex-direction: row;
+        a {
+            padding-left: 2rem;
+        }
+    }
+    // nav a {
+    //     padding-left: 2rem;
+    // }
+
+    .plans {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+    .card {
+        flex: 1;
+        margin: 1%;
+        min-width: 45%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    nav {
+        flex-direction: row;
+    }
+    nav a {
+        padding-left: 2rem;
+    }
+
+    .plans {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+    }
+        .card {
+            flex: 1;
+            margin: 1%;
+            min-width: 20%;
+        }
+}
+
+// Each specific card for a plan, should not need to be manipulated
+.card {
+    padding: 1rem 1.5rem;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #aaa;
+}
+
+h2 {
+    margin: 0;
+
+    font-weight: normal;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.price {
+    margin-bottom: 1rem;
+
+    color: #F4A423;
+
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+button {
+    display: block;
+
+    width: 100%;
+
+    background-color: #D33F49;
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+    font-size: 1rem;
+    text-align: center;
+    line-height: 2rem;
+
+    outline: none;
+    cursor: pointer;
+}

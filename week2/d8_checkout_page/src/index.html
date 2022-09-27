@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left">
+            <div class="top">
+                <h3>TOTAL</h3>
+                <p>$698</p>
+            </div>
+
+            <div class="mid">
+                <h3>DETAIL</h3>
+                <div class="products">
+                    <p class="product name">Product One</p>
+                    <p class="product amount">$599</p>
+                    <p class="product name">Product Two</p>
+                    <p class="product amount">$99</p>
+                </div>
+            </div>
+
+            <div class="end">
+                <input class="button" type="submit" value="PAY NOW" name="pay">
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="name">
+                <p>NAME</p>
+                <input type="text" name="name_text" placeholder="John Doe">
+            </div>
+
+            <div class="number">
+                <p>CARD NUMBER</p>
+                <input type="text" name="card_text" placeholder="1111 1111 1111 1111">
+            </div>
+
+            <div class="right_bottom">
+                <div class="expiry">
+                    <p>EXPIRATION DATE</p>
+                    <div class="expiry_m_y">
+                        <input type="text" name="expiry_m" placeholder="MM">
+                        <input type="text" name="expiry_y" placeholder="YYYY">
+                    </div>
+                </div>
+                <div class="cvv">
+                    <p>CVV</p>
+                    <input type="text" name="cvv" placeholder="123">
+                </div>
+            </div>            
+        </div>
+    </div>
+
+</body>
+
+</html>

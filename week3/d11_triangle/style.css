@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 100%;
+    width: 15%;
+}
+
+.button {
+    margin-top: 10%;
+}
+
+.container input {
+    padding-left: 0.5rem;
+    height: 1.5rem;
+    margin-bottom: 2rem
+}
