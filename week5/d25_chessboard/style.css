@@ -1,0 +1,25 @@
+.board .row {
+    width: 24em;
+    display: flex;
+}
+
+.board .row>div {
+    width: 3em;
+    height: 3em;
+}
+
+.board .white {
+    background-color: #c2c2c2;
+}
+
+.board .black {
+    background-color: #525252;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 0.4em;
+    width: 1.3em;
+    height: 2em;
+}

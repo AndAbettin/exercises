@@ -1,0 +1,16 @@
+.counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 4em;
+    width: 30%;
+    height: 50%;
+
+    button {
+        height: 20px;
+        margin: 1em;
+        // width: 20px;
+    }
+}

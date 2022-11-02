@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  width: 12%;
+  border: 1px solid black;
+  margin: 1%;
+  padding-left: 4em;
+}

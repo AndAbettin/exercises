@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  width: 13%;
+}
